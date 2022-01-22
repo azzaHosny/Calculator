@@ -69,7 +69,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func equalIsPressed(_ sender: UIButton) {
-        if let secondOperandText = secondOperandTextField.text, let secondOperand = Double(secondOperandText) {
+        if let secondOperandText = secondOperandTextField.text, let secondOperand = Int(secondOperandText) {
             presenter.executeOperation(secondOperand: secondOperand)
         }
     }
@@ -110,11 +110,19 @@ class CalculatorViewController: UIViewController {
         secondOperandTextField.text = ""
         secondOperandTextField.isUserInteractionEnabled = isEnabled
     }
+    
     func enableOrDisableUndoButton(isEnabled: Bool){
         undoButton.isEnabled = isEnabled
     }
+    
     func enableOrDisableRedoButton(isEnabled: Bool){
         redoButton.isEnabled = isEnabled
+    }
+     
+    func changeResultValue(result: Int) {
+        if isViewLoaded {
+            presenter.addNewOperationAfterCovertCurrency(resultValue: result)
+        }
     }
 }
 

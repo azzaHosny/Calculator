@@ -14,8 +14,8 @@ enum OperationsType: String {
 }
 
 struct Operation {
-    var firstOperand: Double
-    var secondOperand: Double
+    var firstOperand: Int
+    var secondOperand: Int
     var operationSign: OperationsType
     var concatentedOpertionAndSecondOperand: String {
         return "\(operationSign.rawValue) \(secondOperand) "

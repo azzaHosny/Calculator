@@ -17,14 +17,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         let tabViewController = CustomeTabViewController()
     
-//        let navigationController = UINavigationController()
          window.rootViewController = tabViewController
-        let presenter = CalculatorPresenter()
+        let presenter = CalculatorPresenter(operationHandler: OperationHandler())
         let calculatorVC = CalculatorViewController.init(presenter: presenter)
         calculatorVC.tabBarItem = UITabBarItem(title: "Calculator", image: nil, tag: 0)
         presenter.viewController = calculatorVC
-       let currencyTabVC = CurrencyConverterViewController.init()
-//        navigationController.pushViewController(calculatorVC, animated: true)
+       let currencyTabVC = CurrencyConverterViewController.init(intialResult: 0)
+        currencyTabVC.currencyDelegate = tabViewController
         currencyTabVC.tabBarItem = UITabBarItem(title: "Curreny Converter", image: nil, tag: 1)
         tabViewController.viewControllers = [calculatorVC, currencyTabVC]
         self.window = window

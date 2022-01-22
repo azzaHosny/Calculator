@@ -7,6 +7,13 @@
 
 import UIKit
 
-class CustomeTabViewController: UITabBarController {
+class CustomeTabViewController: UITabBarController, CurrencyConverterDelegate {
+    private var calculatorVC: CalculatorViewController? {
+        return viewControllers?.first(where: {$0 is CalculatorViewController}) as? CalculatorViewController
+    }
     
+    func convertButtonTapped(result: Int) {
+        calculatorVC?.changeResultValue(result: result)
+    }
+
 }
