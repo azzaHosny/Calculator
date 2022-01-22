@@ -43,6 +43,7 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         let executedOperation = Operation(firstOperand: result, secondOperand: secondOperand, operationSign: operationType)
         viewController?.operationExecuted(operation: executedOperation)
         currentOperationType = nil
+        viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
     }
     
     func undo() {
