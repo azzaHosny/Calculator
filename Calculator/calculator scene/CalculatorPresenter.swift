@@ -46,7 +46,6 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         currentIndex = calculatedOperations.count - 1
         viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
         currentOperationType = nil
-        
         viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
         refreshUndoAndRedoButtons()
         

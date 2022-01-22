@@ -10,7 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CalculatorViewController" customModule="Calculator" customModuleProvider="target">
             <connections>
+                <outlet property="divisionButton" destination="say-Of-9nd" id="1Tv-4P-xAx"/>
+                <outlet property="minusButton" destination="zQK-Uj-Qc6" id="lgW-nH-l49"/>
+                <outlet property="multiplyButton" destination="NIb-bQ-1qB" id="dOv-TZ-qTU"/>
                 <outlet property="operationsCollectionView" destination="16J-c2-Hz5" id="KuK-Pv-Ys8"/>
+                <outlet property="plusButton" destination="Ieo-El-pWB" id="B3J-K2-pCq"/>
                 <outlet property="redoButton" destination="R8U-gd-MEG" id="Ay6-a3-czm"/>
                 <outlet property="resultLabel" destination="QID-Yt-hGG" id="81X-se-AML"/>
                 <outlet property="secondOperandTextField" destination="rtH-ir-ay0" id="GuC-0t-UEq"/>

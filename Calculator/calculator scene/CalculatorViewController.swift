@@ -19,11 +19,18 @@ class CalculatorViewController: UIViewController {
     var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
     
-    @IBOutlet weak var resultLabel: UILabel!
-    @IBOutlet weak var secondOperandTextField: UITextField!
-    @IBOutlet weak var undoButton: UIButton!
-    @IBOutlet weak var redoButton: UIButton!
-    @IBOutlet weak var operationsCollectionView: UICollectionView!
+    @IBOutlet private weak var plusButton: UIButton!
+    @IBOutlet private weak var minusButton: UIButton!
+    @IBOutlet private weak var multiplyButton: UIButton!
+    @IBOutlet private weak var divisionButton: UIButton!
+    private var operationsButtons: [UIButton]{
+        return [plusButton, minusButton, multiplyButton, divisionButton]
+    }
+    @IBOutlet private weak var resultLabel: UILabel!
+    @IBOutlet private weak var secondOperandTextField: UITextField!
+    @IBOutlet private weak var undoButton: UIButton!
+    @IBOutlet private weak var redoButton: UIButton!
+    @IBOutlet private weak var operationsCollectionView: UICollectionView!
     
     @IBAction func undoIsPressed(_ sender: Any) {
         presenter.undo()
@@ -33,23 +40,35 @@ class CalculatorViewController: UIViewController {
         presenter.redo()
     }
     
-    @IBAction func plusIsPressed(_ sender: Any) {
+    private func enableOperationButton(button: UIButton) {
+        operationsButtons.forEach { $0.isSelected = false }
+        button.isSelected = true
+    }
+    
+    @IBAction func plusIsPressed(_ sender: UIButton) {
         presenter.setOperationType(operationType: .plus)
+        enableOperationButton(button: sender)
     }
     
-    @IBAction func minusIsPressed(_ sender: Any) {
+    @IBAction func minusIsPressed(_ sender: UIButton) {
         presenter.setOperationType(operationType: .minus)
+        enableOperationButton(button: sender)
+
     }
     
-    @IBAction func DividIsPressed(_ sender: Any) {
+    @IBAction func DividIsPressed(_ sender: UIButton) {
         presenter.setOperationType(operationType: .divid)
+        enableOperationButton(button: sender)
+
     }
     
-    @IBAction func multiplyIsPressed(_ sender: Any) {
+    @IBAction func multiplyIsPressed(_ sender: UIButton) {
         presenter.setOperationType(operationType: .multiply)
+        enableOperationButton(button: sender)
+
     }
     
-    @IBAction func equalIsPressed(_ sender: Any) {
+    @IBAction func equalIsPressed(_ sender: UIButton) {
         if let secondOperandText = secondOperandTextField.text, let secondOperand = Double(secondOperandText) {
             presenter.executeOperation(secondOperand: secondOperand)
         }
@@ -103,6 +122,7 @@ extension CalculatorViewController: CalculatorViewProtocol  {
     func operationExecuted(operations: [Operation]) {
         calculatedOperations = operations
         resultLabel.text = "Result = \(operations.last?.firstOperand ?? 0)"
+        operationsButtons.forEach { $0.isSelected = false }
         operationsCollectionView.reloadData()
     }
 }
