@@ -8,17 +8,18 @@
 import UIKit
 
 class calculatorOperationCell: UICollectionViewCell {
-    @IBOutlet weak var opertionLabel: UILabel!
     @IBOutlet weak var secondOperandLabel: UILabel!
-
+    @IBOutlet weak var outerView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        outerView.layer.borderWidth = 2
+        outerView.layer.borderColor = UIColor.white.cgColor
     }
     
     func configure(operation: Operation) {
-        opertionLabel.text = operation.operationSign.rawValue
-        secondOperandLabel.text = "\(operation.secondOperand)"
+        secondOperandLabel.text = operation.concatentedOpertionAndSecondOperand
     }
 
 }

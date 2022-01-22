@@ -139,14 +139,14 @@ extension CalculatorViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let columns: CGFloat = 2
-        let collectionViewWidth = collectionView.bounds.width
-        let flowLayout = collectionViewLayout as! UICollectionViewFlowLayout
-        let spaceBetweenCells = flowLayout.minimumInteritemSpacing * (columns - 1)
-        let sectionInsets = flowLayout.sectionInset.left + flowLayout.sectionInset.right
-        let adjustedWidth = collectionViewWidth - spaceBetweenCells - sectionInsets
-       let width: CGFloat = floor(adjustedWidth / columns)
-        return CGSize(width: width, height: 50)
+        return CGSize(width:  calculatedOperations[indexPath.row].concatentedOpertionAndSecondOperand.SizeOf_String().width + 10 , height: 50)
     }
 }
 
+extension String {
+    func SizeOf_String( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
+        let fontAttribute = [NSAttributedString.Key.font: font]
+        let size = self.size(withAttributes: fontAttribute)  // for Single Line
+       return size
+    }
+}

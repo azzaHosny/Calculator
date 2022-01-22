@@ -17,4 +17,7 @@ struct Operation {
     var firstOperand: Double
     var secondOperand: Double
     var operationSign: OperationsType
+    var concatentedOpertionAndSecondOperand: String {
+        return "\(operationSign.rawValue) \(secondOperand) "
+    }
 }
