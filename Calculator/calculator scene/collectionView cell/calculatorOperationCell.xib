@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="calculatorOperationCell" customModule="Calculator" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="76" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="76" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CvW-sA-nci">
+                        <rect key="frame" x="0.0" y="0.0" width="76" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aOP-wa-DCL">
+                                <rect key="frame" x="5" y="12.5" width="20" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="jbT-SD-CDp"/>
+                                    <constraint firstAttribute="width" constant="20" id="wkf-ga-KxT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7JW-f8-5dX">
+                                <rect key="frame" x="26" y="14.5" width="40" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="hhN-HY-OgM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7JW-f8-5dX" firstAttribute="centerY" secondItem="CvW-sA-nci" secondAttribute="centerY" id="0LZ-j8-RYJ"/>
+                            <constraint firstItem="aOP-wa-DCL" firstAttribute="centerY" secondItem="CvW-sA-nci" secondAttribute="centerY" id="AgZ-JT-jqL"/>
+                            <constraint firstAttribute="trailing" secondItem="7JW-f8-5dX" secondAttribute="trailing" constant="10" id="FUM-CT-d9F"/>
+                            <constraint firstItem="7JW-f8-5dX" firstAttribute="leading" secondItem="aOP-wa-DCL" secondAttribute="trailing" constant="1" id="bDN-xQ-mlK"/>
+                            <constraint firstItem="aOP-wa-DCL" firstAttribute="leading" secondItem="CvW-sA-nci" secondAttribute="leading" constant="5" id="y61-81-jqg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="CvW-sA-nci" secondAttribute="trailing" id="AcK-Tu-VZF"/>
+                <constraint firstItem="CvW-sA-nci" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="T3w-tf-4P2"/>
+                <constraint firstAttribute="bottom" secondItem="CvW-sA-nci" secondAttribute="bottom" id="T4H-cO-ROD"/>
+                <constraint firstItem="CvW-sA-nci" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZqR-0s-a0q"/>
+            </constraints>
+            <size key="customSize" width="76" height="50"/>
+            <connections>
+                <outlet property="opertionLabel" destination="aOP-wa-DCL" id="16E-Pj-abi"/>
+                <outlet property="secondOperandLabel" destination="7JW-f8-5dX" id="24e-V7-64A"/>
+            </connections>
+            <point key="canvasLocation" x="104.34782608695653" y="79.6875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
