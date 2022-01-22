@@ -48,6 +48,13 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         currentOperationType = nil
         
         viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
+        refreshUndoAndRedoButtons()
+        
+    }
+    
+    func refreshUndoAndRedoButtons() {
+        viewController?.enableOrDisableRedoButton(isEnabled: currentIndex < calculatedOperations.count - 1 )
+        viewController?.enableOrDisableUndoButton(isEnabled: currentIndex > 0)
     }
     
     func undo() {
@@ -57,6 +64,7 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         }
         currentIndex -= 1
         viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
+        refreshUndoAndRedoButtons()
     }
     
     func redo() {
@@ -66,6 +74,6 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         }
         currentIndex += 1
         viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
-        
+        refreshUndoAndRedoButtons()
     }
 }

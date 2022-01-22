@@ -73,6 +73,9 @@ class CalculatorViewController: UIViewController {
         registerCell()
         setCollectionViewDelegates()
         secondOperandTextField.isUserInteractionEnabled = false
+        undoButton.isEnabled = false
+        redoButton.isEnabled = false
+
     }
     
     func registerCell() {
@@ -99,7 +102,7 @@ class CalculatorViewController: UIViewController {
 extension CalculatorViewController: CalculatorViewProtocol  {
     func operationExecuted(operations: [Operation]) {
         calculatedOperations = operations
-        resultLabel.text = "Result = \(operations.last?.firstOperand)"
+        resultLabel.text = "Result = \(operations.last?.firstOperand ?? 0)"
         operationsCollectionView.reloadData()
     }
 }
