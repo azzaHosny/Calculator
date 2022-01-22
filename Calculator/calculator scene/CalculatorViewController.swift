@@ -8,8 +8,10 @@
 import UIKit
 
 protocol CalculatorViewProtocol: AnyObject {
-    func operationExecuted(operation: Operation)
+    func operationExecuted(operations: [Operation])
     func enableSecondOperandTextFieldAndResetText(isEnabled: Bool)
+    func enableOrDisableRedoButton(isEnabled: Bool)
+    func enableOrDisableUndoButton(isEnabled: Bool)
 }
 
 class CalculatorViewController: UIViewController {
@@ -24,9 +26,11 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var operationsCollectionView: UICollectionView!
     
     @IBAction func undoIsPressed(_ sender: Any) {
+        presenter.undo()
     }
     
     @IBAction func redoIsPressed(_ sender: Any) {
+        presenter.redo()
     }
     
     @IBAction func plusIsPressed(_ sender: Any) {
@@ -84,13 +88,18 @@ class CalculatorViewController: UIViewController {
         secondOperandTextField.text = ""
         secondOperandTextField.isUserInteractionEnabled = isEnabled
     }
+    func enableOrDisableUndoButton(isEnabled: Bool){
+        undoButton.isEnabled = isEnabled
+    }
+    func enableOrDisableRedoButton(isEnabled: Bool){
+        redoButton.isEnabled = isEnabled
+    }
 }
 
 extension CalculatorViewController: CalculatorViewProtocol  {
-    
-    func operationExecuted(operation: Operation) {
-        calculatedOperations.append(operation)
-        resultLabel.text = "Result = \(operation.firstOperand)"
+    func operationExecuted(operations: [Operation]) {
+        calculatedOperations = operations
+        resultLabel.text = "Result = \(operations.last?.firstOperand)"
         operationsCollectionView.reloadData()
     }
 }

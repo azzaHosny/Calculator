@@ -15,6 +15,7 @@ protocol CalculatorPresenterProtocol {
 }
 
 class CalculatorPresenter: CalculatorPresenterProtocol {
+    var currentIndex: Int = 0
     var currentOperationType: OperationsType?
     var result: Double = 0
     weak var viewController: CalculatorViewProtocol?
@@ -26,7 +27,7 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         self.currentOperationType = operationType
         viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: self.currentOperationType != nil)
     }
-
+    
     func executeOperation(secondOperand: Double) {
         guard let operationType = currentOperationType else { // error operation must be selected first
             return }
@@ -41,16 +42,30 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
             result = result * secondOperand
         }
         let executedOperation = Operation(firstOperand: result, secondOperand: secondOperand, operationSign: operationType)
-        viewController?.operationExecuted(operation: executedOperation)
+        calculatedOperations.append(executedOperation)
+        currentIndex = calculatedOperations.count - 1
+        viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
         currentOperationType = nil
+        
         viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
     }
     
     func undo() {
-        
+        guard currentIndex > 0 else {
+            // show error
+            return
+        }
+        currentIndex -= 1
+        viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
     }
     
     func redo() {
+        guard currentIndex < calculatedOperations.count - 1 else {
+            // show error
+            return
+        }
+        currentIndex += 1
+        viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
         
     }
 }
