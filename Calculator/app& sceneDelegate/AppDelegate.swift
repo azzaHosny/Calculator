@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Calculator
 //
-//  Created by SmartPan on 1/22/22.
+//  Created by azah on 1/22/22.
 //
 
 import UIKit
