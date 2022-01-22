@@ -93,7 +93,6 @@ extension CalculatorViewController: CalculatorViewProtocol  {
         resultLabel.text = "Result = \(operation.firstOperand)"
         operationsCollectionView.reloadData()
     }
-    
 }
 
 extension CalculatorViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
