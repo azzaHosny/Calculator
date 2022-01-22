@@ -36,7 +36,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter the second operand" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rtH-ir-ay0">
-                            <rect key="frame" x="83" y="90" width="248" height="50"/>
+                            <rect key="frame" x="62" y="90" width="290" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="GY2-uN-l4w"/>
                             </constraints>
@@ -132,7 +132,7 @@
                         <constraint firstItem="QID-Yt-hGG" firstAttribute="top" secondItem="von-YW-fCV" secondAttribute="top" constant="20" id="KEC-eC-G7Q"/>
                         <constraint firstAttribute="trailing" secondItem="Efz-ub-uby" secondAttribute="trailing" constant="10" id="O5y-1z-fEu"/>
                         <constraint firstItem="QID-Yt-hGG" firstAttribute="width" secondItem="von-YW-fCV" secondAttribute="width" multiplier="0.5" id="RE1-12-NvJ"/>
-                        <constraint firstItem="rtH-ir-ay0" firstAttribute="width" secondItem="von-YW-fCV" secondAttribute="width" multiplier="0.6" id="SIw-ze-Qfp"/>
+                        <constraint firstItem="rtH-ir-ay0" firstAttribute="width" secondItem="von-YW-fCV" secondAttribute="width" multiplier="0.7" id="SIw-ze-Qfp"/>
                         <constraint firstAttribute="trailing" secondItem="lTd-Ws-uZC" secondAttribute="trailing" constant="10" id="ZfV-dY-tj3"/>
                         <constraint firstItem="lTd-Ws-uZC" firstAttribute="leading" secondItem="von-YW-fCV" secondAttribute="leading" constant="10" id="fIl-PB-1LY"/>
                         <constraint firstItem="rtH-ir-ay0" firstAttribute="centerX" secondItem="von-YW-fCV" secondAttribute="centerX" id="fNt-dv-dEd"/>

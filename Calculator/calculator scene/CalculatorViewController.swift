@@ -9,15 +9,13 @@ import UIKit
 
 protocol CalculatorViewProtocol: AnyObject {
     func operationExecuted(operation: Operation)
+    func enableSecondOperandTextFieldAndResetText(isEnabled: Bool)
 }
 
 class CalculatorViewController: UIViewController {
     
-    var presenter: CalculatorPresenterProtocol?
+    var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
-    var operationType: OperationsType?
-    var secondOperand: Double?
-    var result: Double = 0
     
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet weak var secondOperandTextField: UITextField!
@@ -32,29 +30,24 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func plusIsPressed(_ sender: Any) {
-        operationType = .plus
-        enableSecondOperandTextFieldAndResetText(isEnabled: true)
+        presenter.setOperationType(operationType: .plus)
     }
     
     @IBAction func minusIsPressed(_ sender: Any) {
-        operationType = .minus
-        enableSecondOperandTextFieldAndResetText(isEnabled: true)
+        presenter.setOperationType(operationType: .minus)
     }
     
     @IBAction func DividIsPressed(_ sender: Any) {
-        operationType = .divid
-        enableSecondOperandTextFieldAndResetText(isEnabled: true)
+        presenter.setOperationType(operationType: .divid)
     }
     
     @IBAction func multiplyIsPressed(_ sender: Any) {
-        operationType = .multiply
-        enableSecondOperandTextFieldAndResetText(isEnabled: true)
+        presenter.setOperationType(operationType: .multiply)
     }
     
     @IBAction func equalIsPressed(_ sender: Any) {
-        if secondOperandTextField.text != nil && operationType != nil {
-            secondOperand = Double(secondOperandTextField.text ?? "0")
-            presenter?.executeOperation(operation: Operation(firstOperand: result, secondOperand: secondOperand!, operationSign: operationType!))
+        if let secondOperandText = secondOperandTextField.text, let secondOperand = Double(secondOperandText) {
+            presenter.executeOperation(secondOperand: secondOperand)
         }
     }
     
@@ -75,7 +68,7 @@ class CalculatorViewController: UIViewController {
     func setup() {
         registerCell()
         setCollectionViewDelegates()
-        enableSecondOperandTextFieldAndResetText(isEnabled: false)
+        secondOperandTextField.isUserInteractionEnabled = false
     }
     
     func registerCell() {
@@ -93,10 +86,10 @@ class CalculatorViewController: UIViewController {
     }
 }
 
-extension CalculatorViewController: CalculatorViewProtocol, UITextFieldDelegate  {
+extension CalculatorViewController: CalculatorViewProtocol  {
+    
     func operationExecuted(operation: Operation) {
         calculatedOperations.append(operation)
-        result = operation.firstOperand
         resultLabel.text = "Result = \(operation.firstOperand)"
         operationsCollectionView.reloadData()
     }

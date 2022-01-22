@@ -8,33 +8,39 @@
 import Foundation
 
 protocol CalculatorPresenterProtocol {
-    func executeOperation(operation: Operation)
+    func setOperationType(operationType: OperationsType)
+    func executeOperation(secondOperand: Double)
     func undo()
     func redo()
 }
 
 class CalculatorPresenter: CalculatorPresenterProtocol {
-    
+    var operationType: OperationsType?
+    var result: Double = 0
     weak var viewController: CalculatorViewProtocol?
     var undoOperations: [Operation] = []
     var redoOperations: [Operation] = []
     var calculatedOperations: [Operation] = []
     
-    func executeOperation(operation: Operation) {
-        var result = operation.firstOperand
-        switch operation.operationSign {
-        case .divid:
-            result = result / operation.secondOperand
-        case .minus:
-            result = result - operation.secondOperand
-        case .plus:
-            result = result + operation.secondOperand
+    func setOperationType(operationType: OperationsType) {
+        self.operationType = operationType
+        viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: self.operationType != nil)
+    }
 
+    func executeOperation(secondOperand: Double) {
+        guard let operationType = operationType else { // error operation must be selected first
+            return }
+        switch operationType {
+        case .divid:
+            result = result / secondOperand
+        case .minus:
+            result = result - secondOperand
+        case .plus:
+            result = result + secondOperand
         case .multiply:
-            result = result * operation.secondOperand
+            result = result * secondOperand
         }
-        var executedOperation = operation
-        executedOperation.firstOperand = result
+        let executedOperation = Operation(firstOperand: result, secondOperand: secondOperand, operationSign: operationType)
         viewController?.operationExecuted(operation: executedOperation)
     }
     
