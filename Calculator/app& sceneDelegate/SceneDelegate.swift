@@ -21,9 +21,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
          window.rootViewController = tabViewController
         let presenter = CalculatorPresenter()
         let calculatorVC = CalculatorViewController.init(presenter: presenter)
+        calculatorVC.tabBarItem = UITabBarItem(title: "Calculator", image: nil, tag: 0)
         presenter.viewController = calculatorVC
+       let currencyTabVC = CurrencyConverterViewController.init()
 //        navigationController.pushViewController(calculatorVC, animated: true)
-        tabViewController.viewControllers = [calculatorVC]
+        currencyTabVC.tabBarItem = UITabBarItem(title: "Curreny Converter", image: nil, tag: 1)
+        tabViewController.viewControllers = [calculatorVC, currencyTabVC]
         self.window = window
         window.makeKeyAndVisible()
     }

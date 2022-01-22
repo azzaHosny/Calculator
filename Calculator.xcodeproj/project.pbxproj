@@ -18,6 +18,8 @@
 		5C573B09279C561D00435066 /* calculatorOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573B07279C561D00435066 /* calculatorOperationCell.swift */; };
 		5C573B0A279C561D00435066 /* calculatorOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C573B08279C561D00435066 /* calculatorOperationCell.xib */; };
 		5C6F85E8279CA55C00620026 /* CustomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */; };
+		5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */; };
+		5C6F85F0279CA7AE00620026 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		5C573B07279C561D00435066 /* calculatorOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorOperationCell.swift; sourceTree = "<group>"; };
 		5C573B08279C561D00435066 /* calculatorOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = calculatorOperationCell.xib; sourceTree = "<group>"; };
 		5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabViewController.swift; sourceTree = "<group>"; };
+		5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
+		5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyConverterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				5C573AEB279C0A0600435066 /* Assets.xcassets */,
 				5C573AF0279C0A0600435066 /* Info.plist */,
 				5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */,
+				5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */,
+				5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				5C573AFF279C258A00435066 /* CalculatorViewController.xib in Resources */,
 				5C573AEC279C0A0600435066 /* Assets.xcassets in Resources */,
 				5C573B0A279C561D00435066 /* calculatorOperationCell.xib in Resources */,
+				5C6F85F0279CA7AE00620026 /* CurrencyConverterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +194,7 @@
 			files = (
 				5C573AE3279C09FD00435066 /* AppDelegate.swift in Sources */,
 				5C573B09279C561D00435066 /* calculatorOperationCell.swift in Sources */,
+				5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */,
 				5C6F85E8279CA55C00620026 /* CustomeTabViewController.swift in Sources */,
 				5C573B05279C543600435066 /* CalculatorModel.swift in Sources */,
 				5C573AFE279C258A00435066 /* CalculatorViewController.swift in Sources */,
