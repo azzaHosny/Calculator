@@ -30,7 +30,7 @@
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
-      "line": 35,
+      "line": 41,
       "symbol": "CustomeTabViewController.tabBarController(_:didSelect:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -128,16 +128,9 @@
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorInteractor.swift",
-      "line": 12,
+      "line": 13,
       "symbol": "CalculatorInteractor",
       "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorInteractor.swift",
-      "line": 13,
-      "symbol": "CalculatorInteractor.presenter",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -254,84 +247,70 @@
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 16,
-      "symbol": "CalculatorPresenterProtocol.reloadOperationsResult()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 19,
-      "symbol": "CalculatorPresenterDelegate",
-      "symbol_kind": "source.lang.swift.decl.protocol",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 23,
+      "line": 18,
       "symbol": "CalculatorPresenter",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 24,
+      "line": 19,
       "symbol": "CalculatorPresenter.setEgpTextValueDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 28,
+      "line": 21,
       "symbol": "CalculatorPresenter.currentIndex",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 29,
+      "line": 22,
       "symbol": "CalculatorPresenter.currentOperationType",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 30,
+      "line": 23,
       "symbol": "CalculatorPresenter.result",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 31,
+      "line": 24,
       "symbol": "CalculatorPresenter.viewController",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 32,
+      "line": 25,
       "symbol": "CalculatorPresenter.calculatedOperations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 34,
-      "symbol": "CalculatorPresenter.init(operationHandler:interactor:router:)",
+      "line": 27,
+      "symbol": "CalculatorPresenter.init(operationHandler:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 40,
+      "line": 31,
       "symbol": "CalculatorPresenter.setOperationType(operationType:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 45,
+      "line": 36,
       "symbol": "CalculatorPresenter.executeOperation(secondOperand:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -355,20 +334,6 @@
       "line": 87,
       "symbol": "CalculatorPresenter.addNewOperationAfterCovertCurrency(resultValue:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 96,
-      "symbol": "CalculatorPresenter.reloadOperationsResult()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
-      "line": 101,
-      "symbol": "CalculatorPresenter",
-      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -465,188 +430,195 @@
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
       "line": 21,
-      "symbol": "CalculatorViewController.presenter",
+      "symbol": "CalculatorViewController.setEgpTextValueDelegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
       "line": 22,
+      "symbol": "CalculatorViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 23,
       "symbol": "CalculatorViewController.calculatedOperations",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 36,
+      "line": 37,
       "symbol": "CalculatorViewController.undoIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 40,
+      "line": 41,
       "symbol": "CalculatorViewController.redoIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 49,
+      "line": 50,
       "symbol": "CalculatorViewController.plusIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 54,
+      "line": 55,
       "symbol": "CalculatorViewController.minusIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 60,
+      "line": 61,
       "symbol": "CalculatorViewController.DividIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 66,
+      "line": 67,
       "symbol": "CalculatorViewController.multiplyIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 72,
+      "line": 73,
       "symbol": "CalculatorViewController.equalIsPressed(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 78,
+      "line": 79,
       "symbol": "CalculatorViewController.init(presenter:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 83,
+      "line": 84,
       "symbol": "CalculatorViewController.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 87,
+      "line": 88,
       "symbol": "CalculatorViewController.viewDidLoad()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 92,
+      "line": 93,
       "symbol": "CalculatorViewController.setup()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 101,
+      "line": 102,
       "symbol": "CalculatorViewController.registerCell()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 105,
+      "line": 106,
       "symbol": "CalculatorViewController.setCollectionViewDelegates()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 110,
+      "line": 111,
       "symbol": "CalculatorViewController.enableSecondOperandTextFieldAndResetText(isEnabled:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 115,
+      "line": 116,
       "symbol": "CalculatorViewController.enableOrDisableUndoButton(isEnabled:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 119,
+      "line": 120,
       "symbol": "CalculatorViewController.enableOrDisableRedoButton(isEnabled:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 123,
+      "line": 124,
       "symbol": "CalculatorViewController.changeResultValue(result:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 129,
-      "symbol": "CalculatorViewController.reloadOperationsResult()",
+      "line": 130,
+      "symbol": "CalculatorViewController.getOperationsResult()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 134,
+      "line": 135,
       "symbol": "CalculatorViewController",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 135,
+      "line": 136,
       "symbol": "CalculatorViewController.operationExecuted(operations:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 143,
+      "line": 144,
       "symbol": "CalculatorViewController",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 144,
+      "line": 145,
       "symbol": "CalculatorViewController.collectionView(_:numberOfItemsInSection:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 148,
+      "line": 149,
       "symbol": "CalculatorViewController.collectionView(_:cellForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 154,
+      "line": 155,
       "symbol": "CalculatorViewController.collectionView(_:layout:sizeForItemAt:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
-      "line": 160,
+      "line": 161,
       "symbol": "String.getSizeOfString(font:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -667,36 +639,15 @@
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
-      "line": 11,
-      "symbol": "OperationHandlerProtocol.getOperation(operationType:firstOperand:secondOperand:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
-      "line": 13,
+      "line": 12,
       "symbol": "OperationHandler",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
-      "line": 15,
+      "line": 14,
       "symbol": "OperationHandler.getOperation(calculatorResult:converterResult:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
-      "line": 31,
-      "symbol": "OperationHandler.getOperation(operationType:firstOperand:secondOperand:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
-      "line": 36,
-      "symbol": "OperationHandler.getOperationResult(operationType:firstOperand:secondOperand:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
