@@ -11,6 +11,22 @@
 		5C573AE5279C09FD00435066 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573AE4279C09FD00435066 /* SceneDelegate.swift */; };
 		5C573AEC279C0A0600435066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C573AEB279C0A0600435066 /* Assets.xcassets */; };
 		5C573AEF279C0A0600435066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C573AED279C0A0600435066 /* LaunchScreen.storyboard */; };
+		5C573AFE279C258A00435066 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573AFC279C258A00435066 /* CalculatorViewController.swift */; };
+		5C573AFF279C258A00435066 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C573AFD279C258A00435066 /* CalculatorViewController.xib */; };
+		5C573B02279C518300435066 /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573B01279C518300435066 /* CalculatorPresenter.swift */; };
+		5C573B05279C543600435066 /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573B04279C543600435066 /* CalculatorModel.swift */; };
+		5C573B09279C561D00435066 /* calculatorOperationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C573B07279C561D00435066 /* calculatorOperationCell.swift */; };
+		5C573B0A279C561D00435066 /* calculatorOperationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C573B08279C561D00435066 /* calculatorOperationCell.xib */; };
+		5C6F85E8279CA55C00620026 /* CustomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */; };
+		5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */; };
+		5C6F85F0279CA7AE00620026 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */; };
+		5CA67CE2279DBC3A009C6E5D /* OperationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA67CE1279DBC3A009C6E5D /* OperationHandler.swift */; };
+		5CE8C85F279DD08800142FF2 /* CurrencyConverterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */; };
+		5CE8C862279DD1CE00142FF2 /* CurrencyConverterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */; };
+		5CE8C866279DD3BB00142FF2 /* CurrencyConverterDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */; };
+		5CE8C86A279DD98C00142FF2 /* CurrencyConverterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */; };
+		5CE8C86D279DDE3500142FF2 /* CalculatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C86C279DDE3500142FF2 /* CalculatorRouter.swift */; };
+		5CE8C870279DDE5B00142FF2 /* CalculatorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C86F279DDE5B00142FF2 /* CalculatorInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +36,22 @@
 		5C573AEB279C0A0600435066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C573AEE279C0A0600435066 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C573AF0279C0A0600435066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C573AFC279C258A00435066 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		5C573AFD279C258A00435066 /* CalculatorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+		5C573B01279C518300435066 /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		5C573B04279C543600435066 /* CalculatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		5C573B07279C561D00435066 /* calculatorOperationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorOperationCell.swift; sourceTree = "<group>"; };
+		5C573B08279C561D00435066 /* calculatorOperationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = calculatorOperationCell.xib; sourceTree = "<group>"; };
+		5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTabViewController.swift; sourceTree = "<group>"; };
+		5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
+		5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyConverterViewController.xib; sourceTree = "<group>"; };
+		5CA67CE1279DBC3A009C6E5D /* OperationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationHandler.swift; sourceTree = "<group>"; };
+		5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterPresenter.swift; sourceTree = "<group>"; };
+		5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterInteractor.swift; sourceTree = "<group>"; };
+		5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterDatasource.swift; sourceTree = "<group>"; };
+		5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterRouter.swift; sourceTree = "<group>"; };
+		5CE8C86C279DDE3500142FF2 /* CalculatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorRouter.swift; sourceTree = "<group>"; };
+		5CE8C86F279DDE5B00142FF2 /* CalculatorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +84,13 @@
 		5C573AE1279C09FD00435066 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5CA67CE0279DBBF1009C6E5D /* currency converter scene */,
 				5C573AFB279C24D600435066 /* calculator scene */,
 				5C573AFA279C24A700435066 /* launchScreen */,
 				5C573AF9279C246E00435066 /* app& sceneDelegate */,
 				5C573AEB279C0A0600435066 /* Assets.xcassets */,
 				5C573AF0279C0A0600435066 /* Info.plist */,
+				5C6F85E7279CA55C00620026 /* CustomeTabViewController.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -81,8 +115,38 @@
 		5C573AFB279C24D600435066 /* calculator scene */ = {
 			isa = PBXGroup;
 			children = (
+				5C573AFC279C258A00435066 /* CalculatorViewController.swift */,
+				5C573AFD279C258A00435066 /* CalculatorViewController.xib */,
+				5C573B01279C518300435066 /* CalculatorPresenter.swift */,
+				5C573B04279C543600435066 /* CalculatorModel.swift */,
+				5CA67CE1279DBC3A009C6E5D /* OperationHandler.swift */,
+				5CE8C86C279DDE3500142FF2 /* CalculatorRouter.swift */,
+				5CE8C86F279DDE5B00142FF2 /* CalculatorInteractor.swift */,
+				5C573B0C279C586B00435066 /* collectionView cell */,
 			);
 			path = "calculator scene";
+			sourceTree = "<group>";
+		};
+		5C573B0C279C586B00435066 /* collectionView cell */ = {
+			isa = PBXGroup;
+			children = (
+				5C573B07279C561D00435066 /* calculatorOperationCell.swift */,
+				5C573B08279C561D00435066 /* calculatorOperationCell.xib */,
+			);
+			path = "collectionView cell";
+			sourceTree = "<group>";
+		};
+		5CA67CE0279DBBF1009C6E5D /* currency converter scene */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */,
+				5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */,
+				5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */,
+				5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */,
+				5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */,
+				5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */,
+			);
+			path = "currency converter scene";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +207,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C573AEF279C0A0600435066 /* LaunchScreen.storyboard in Resources */,
+				5C573AFF279C258A00435066 /* CalculatorViewController.xib in Resources */,
 				5C573AEC279C0A0600435066 /* Assets.xcassets in Resources */,
+				5C573B0A279C561D00435066 /* calculatorOperationCell.xib in Resources */,
+				5C6F85F0279CA7AE00620026 /* CurrencyConverterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +222,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C573AE3279C09FD00435066 /* AppDelegate.swift in Sources */,
+				5C573B09279C561D00435066 /* calculatorOperationCell.swift in Sources */,
+				5CE8C86D279DDE3500142FF2 /* CalculatorRouter.swift in Sources */,
+				5CE8C866279DD3BB00142FF2 /* CurrencyConverterDatasource.swift in Sources */,
+				5CE8C85F279DD08800142FF2 /* CurrencyConverterPresenter.swift in Sources */,
+				5CE8C86A279DD98C00142FF2 /* CurrencyConverterRouter.swift in Sources */,
+				5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */,
+				5CE8C862279DD1CE00142FF2 /* CurrencyConverterInteractor.swift in Sources */,
+				5C6F85E8279CA55C00620026 /* CustomeTabViewController.swift in Sources */,
+				5C573B05279C543600435066 /* CalculatorModel.swift in Sources */,
+				5C573AFE279C258A00435066 /* CalculatorViewController.swift in Sources */,
+				5C573B02279C518300435066 /* CalculatorPresenter.swift in Sources */,
 				5C573AE5279C09FD00435066 /* SceneDelegate.swift in Sources */,
+				5CE8C870279DDE5B00142FF2 /* CalculatorInteractor.swift in Sources */,
+				5CA67CE2279DBC3A009C6E5D /* OperationHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

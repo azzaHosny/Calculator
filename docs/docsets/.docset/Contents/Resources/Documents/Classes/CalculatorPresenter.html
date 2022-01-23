@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CalculatorPresenter Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CalculatorPresenter" class="dashAnchor"></a>
+    <a title="CalculatorPresenter Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (0% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        CalculatorPresenter Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalculatorInteractor.html">CalculatorInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalculatorPresenter.html">CalculatorPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalculatorRouter.html">CalculatorRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CalculatorViewController.html">CalculatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConverterInteractor.html">CurrencyConverterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConverterPresenter.html">CurrencyConverterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConverterRouter.html">CurrencyConverterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConverterViewController.html">CurrencyConverterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CustomeTabViewController.html">CustomeTabViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MockCurrencyConverterDatasource.html">MockCurrencyConverterDatasource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OperationHandler.html">OperationHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/calculatorOperationCell.html">calculatorOperationCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/OperationsType.html">OperationsType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CalculatorDelegate.html">CalculatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10Calculator0A18InteractorProtocolP">CalculatorInteractorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:10Calculator0A17PresenterDelegateP">CalculatorPresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalculatorPresenterProtocol.html">CalculatorPresenterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalculatorRouterProtocol.html">CalculatorRouterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CalculatorViewProtocol.html">CalculatorViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterDatasourceProtocol.html">CurrencyConverterDatasourceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterDelegate.html">CurrencyConverterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterInteractorProtocol.html">CurrencyConverterInteractorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterPresenterDelegate.html">CurrencyConverterPresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterPresenterProtocol.html">CurrencyConverterPresenterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterRouterProtocol.html">CurrencyConverterRouterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConverterViewProtocol.html">CurrencyConverterViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OperationHandlerProtocol.html">OperationHandlerProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Operation.html">Operation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CalculatorPresenter</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CalculatorPresenter</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/CalculatorPresenterProtocol.html">CalculatorPresenterProtocol</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">CalculatorPresenter</span><span class="p">:</span> <span class="kt"><a href="../Protocols.html#/s:10Calculator0A17PresenterDelegateP">CalculatorPresenterDelegate</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC23setEgpTextValueDelegateAA0aG0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/setEgpTextValueDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC23setEgpTextValueDelegateAA0aG0_pSgvp">setEgpTextValueDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">setEgpTextValueDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CalculatorDelegate.html">CalculatorDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC12currentIndexSivp"></a>
+                    <a name="//apple_ref/swift/Property/currentIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC12currentIndexSivp">currentIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentIndex</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC20currentOperationTypeAA010OperationsE0OSgvp"></a>
+                    <a name="//apple_ref/swift/Property/currentOperationType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC20currentOperationTypeAA010OperationsE0OSgvp">currentOperationType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">currentOperationType</span><span class="p">:</span> <span class="kt"><a href="../Enums/OperationsType.html">OperationsType</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC6resultSivp"></a>
+                    <a name="//apple_ref/swift/Property/result" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC6resultSivp">result</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC14viewControllerAA0A12ViewProtocol_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/viewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC14viewControllerAA0A12ViewProtocol_pSgvp">viewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CalculatorViewProtocol.html">CalculatorViewProtocol</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC20calculatedOperationsSayAA9OperationVGvp"></a>
+                    <a name="//apple_ref/swift/Property/calculatedOperations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC20calculatedOperationsSayAA9OperationVGvp">calculatedOperations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">calculatedOperations</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Operation.html">Operation</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC16operationHandler10interactor6routerAcA09OperationD8Protocol_p_AA0a10InteractorH0_pAA0A6RouterCtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(operationHandler:interactor:router:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC16operationHandler10interactor6routerAcA09OperationD8Protocol_p_AA0a10InteractorH0_pAA0A6RouterCtcfc">init(operationHandler:<wbr>interactor:<wbr>router:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="nf">init</span><span class="p">(</span><span class="nv">operationHandler</span><span class="p">:</span> <span class="kt"><a href="../Protocols/OperationHandlerProtocol.html">OperationHandlerProtocol</a></span><span class="p">,</span> <span class="nv">interactor</span><span class="p">:</span> <span class="kt"><a href="../Protocols.html#/s:10Calculator0A18InteractorProtocolP">CalculatorInteractorProtocol</a></span><span class="p">,</span> <span class="nv">router</span><span class="p">:</span> <span class="kt"><a href="../Classes/CalculatorRouter.html">CalculatorRouter</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC16setOperationType09operationE0yAA010OperationsE0O_tF"></a>
+                    <a name="//apple_ref/swift/Method/setOperationType(operationType:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC16setOperationType09operationE0yAA010OperationsE0O_tF">setOperationType(operationType:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setOperationType</span><span class="p">(</span><span class="nv">operationType</span><span class="p">:</span> <span class="kt"><a href="../Enums/OperationsType.html">OperationsType</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC16executeOperation13secondOperandySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/executeOperation(secondOperand:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC16executeOperation13secondOperandySi_tF">executeOperation(secondOperand:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">executeOperation</span><span class="p">(</span><span class="nv">secondOperand</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC4undoyyF"></a>
+                    <a name="//apple_ref/swift/Method/undo()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC4undoyyF">undo()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">undo</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC4redoyyF"></a>
+                    <a name="//apple_ref/swift/Method/redo()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC4redoyyF">redo()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">redo</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC34addNewOperationAfterCovertCurrency11resultValueySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/addNewOperationAfterCovertCurrency(resultValue:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC34addNewOperationAfterCovertCurrency11resultValueySi_tF">addNewOperationAfterCovertCurrency(resultValue:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">addNewOperationAfterCovertCurrency</span><span class="p">(</span><span class="nv">resultValue</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A9PresenterC22reloadOperationsResultyyF"></a>
+                    <a name="//apple_ref/swift/Method/reloadOperationsResult()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A9PresenterC22reloadOperationsResultyyF">reloadOperationsResult()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reloadOperationsResult</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

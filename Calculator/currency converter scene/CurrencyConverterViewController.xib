@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurrencyConverterViewController" customModule="Calculator" customModuleProvider="target">
+            <connections>
+                <outlet property="egpTextField" destination="wNC-4R-MCe" id="Irr-CM-5yh"/>
+                <outlet property="usdLabel" destination="hv0-bA-0Da" id="RPB-gh-84F"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgk-P0-hzf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wNC-4R-MCe">
+                            <rect key="frame" x="83" y="30" width="248" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNs-Yb-LCP">
+                            <rect key="frame" x="103.5" y="104" width="207" height="50"/>
+                            <color key="backgroundColor" red="0.85882352939999995" green="0.95686274510000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="V95-0e-On3"/>
+                            </constraints>
+                            <state key="normal" title="Convert"/>
+                            <connections>
+                                <action selector="convertIsPressed:" destination="-1" eventType="touchUpInside" id="i1d-ia-Tv8"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hv0-bA-0Da">
+                            <rect key="frame" x="186" y="196" width="42" height="21"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="pNs-Yb-LCP" firstAttribute="width" secondItem="qgk-P0-hzf" secondAttribute="width" multiplier="0.5" id="61e-fv-k8B"/>
+                        <constraint firstItem="wNC-4R-MCe" firstAttribute="width" secondItem="qgk-P0-hzf" secondAttribute="width" multiplier="0.6" id="CXL-Lt-dhf"/>
+                        <constraint firstItem="wNC-4R-MCe" firstAttribute="centerX" secondItem="qgk-P0-hzf" secondAttribute="centerX" id="Ivl-Rs-Nop"/>
+                        <constraint firstItem="wNC-4R-MCe" firstAttribute="top" secondItem="qgk-P0-hzf" secondAttribute="top" constant="30" id="ZFk-xK-rpC"/>
+                        <constraint firstItem="pNs-Yb-LCP" firstAttribute="centerX" secondItem="qgk-P0-hzf" secondAttribute="centerX" id="pPt-YO-su1"/>
+                        <constraint firstItem="pNs-Yb-LCP" firstAttribute="top" secondItem="wNC-4R-MCe" secondAttribute="bottom" constant="40" id="phS-xH-lor"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="qgk-P0-hzf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EG8-ID-VeB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="qgk-P0-hzf" secondAttribute="bottom" id="ESC-Rk-8aT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qgk-P0-hzf" secondAttribute="trailing" id="KVb-M9-Nh4"/>
+                <constraint firstItem="qgk-P0-hzf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="pL0-E6-ZPL"/>
+            </constraints>
+            <point key="canvasLocation" x="-9" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

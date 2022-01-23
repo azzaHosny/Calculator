@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Protocols  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Section/Protocols" class="dashAnchor"></a>
+    <a title="Protocols  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (0% documented)</p>
+        <div class="header-right">
+          <form role="search" action="search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" alt=""/>
+        Protocols  Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CalculatorInteractor.html">CalculatorInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CalculatorPresenter.html">CalculatorPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CalculatorRouter.html">CalculatorRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CalculatorViewController.html">CalculatorViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CurrencyConverterInteractor.html">CurrencyConverterInteractor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CurrencyConverterPresenter.html">CurrencyConverterPresenter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CurrencyConverterRouter.html">CurrencyConverterRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CurrencyConverterViewController.html">CurrencyConverterViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CustomeTabViewController.html">CustomeTabViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/MockCurrencyConverterDatasource.html">MockCurrencyConverterDatasource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/OperationHandler.html">OperationHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/calculatorOperationCell.html">calculatorOperationCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Enums/OperationsType.html">OperationsType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/String.html">String</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/CalculatorDelegate.html">CalculatorDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:10Calculator0A18InteractorProtocolP">CalculatorInteractorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols.html#/s:10Calculator0A17PresenterDelegateP">CalculatorPresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CalculatorPresenterProtocol.html">CalculatorPresenterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CalculatorRouterProtocol.html">CalculatorRouterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CalculatorViewProtocol.html">CalculatorViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterDatasourceProtocol.html">CurrencyConverterDatasourceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterDelegate.html">CurrencyConverterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterInteractorProtocol.html">CurrencyConverterInteractorProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterPresenterDelegate.html">CurrencyConverterPresenterDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterPresenterProtocol.html">CurrencyConverterPresenterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterRouterProtocol.html">CurrencyConverterRouterProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CurrencyConverterViewProtocol.html">CurrencyConverterViewProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/OperationHandlerProtocol.html">OperationHandlerProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/Operation.html">Operation</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A18InteractorProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorInteractorProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A18InteractorProtocolP">CalculatorInteractorProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorInteractorProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A17PresenterProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorPresenterProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A17PresenterProtocolP">CalculatorPresenterProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CalculatorPresenterProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorPresenterProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A17PresenterDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorPresenterDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A17PresenterDelegateP">CalculatorPresenterDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorPresenterDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A14RouterProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorRouterProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A14RouterProtocolP">CalculatorRouterProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CalculatorRouterProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorRouterProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A12ViewProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorViewProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A12ViewProtocolP">CalculatorViewProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CalculatorViewProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorViewProtocol</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator0A8DelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/CalculatorDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator0A8DelegateP">CalculatorDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CalculatorDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CalculatorDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator24OperationHandlerProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/OperationHandlerProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator24OperationHandlerProtocolP">OperationHandlerProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/OperationHandlerProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">OperationHandlerProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator35CurrencyConverterDatasourceProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterDatasourceProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator35CurrencyConverterDatasourceProtocolP">CurrencyConverterDatasourceProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterDatasourceProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterDatasourceProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator35CurrencyConverterInteractorProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterInteractorProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator35CurrencyConverterInteractorProtocolP">CurrencyConverterInteractorProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterInteractorProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterInteractorProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator34CurrencyConverterPresenterProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterPresenterProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator34CurrencyConverterPresenterProtocolP">CurrencyConverterPresenterProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterPresenterProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterPresenterProtocol</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator34CurrencyConverterPresenterDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterPresenterDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator34CurrencyConverterPresenterDelegateP">CurrencyConverterPresenterDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterPresenterDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterPresenterDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator31CurrencyConverterRouterProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterRouterProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator31CurrencyConverterRouterProtocolP">CurrencyConverterRouterProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterRouterProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterRouterProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator25CurrencyConverterDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator25CurrencyConverterDelegateP">CurrencyConverterDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterDelegate</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:10Calculator29CurrencyConverterViewProtocolP"></a>
+                    <a name="//apple_ref/swift/Protocol/CurrencyConverterViewProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/s:10Calculator29CurrencyConverterViewProtocolP">CurrencyConverterViewProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CurrencyConverterViewProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CurrencyConverterViewProtocol</span> <span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2022-01-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

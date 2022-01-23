@@ -1,0 +1,1013 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
+      "line": 10,
+      "symbol": "CustomeTabViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
+      "line": 20,
+      "symbol": "CustomeTabViewController.convertButtonTapped(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
+      "line": 24,
+      "symbol": "CustomeTabViewController.setEgpTextValue(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
+      "line": 28,
+      "symbol": "CustomeTabViewController.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/CustomeTabViewController.swift",
+      "line": 41,
+      "symbol": "CustomeTabViewController.tabBarController(_:didSelect:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 10,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 12,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 14,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 25,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 32,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 37,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 42,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/app& sceneDelegate/SceneDelegate.swift",
+      "line": 47,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorInteractor.swift",
+      "line": 9,
+      "symbol": "CalculatorInteractorProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorInteractor.swift",
+      "line": 13,
+      "symbol": "CalculatorInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 9,
+      "symbol": "OperationsType",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 10,
+      "symbol": "OperationsType.plus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 11,
+      "symbol": "OperationsType.minus",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 12,
+      "symbol": "OperationsType.multiply",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 13,
+      "symbol": "OperationsType.divid",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 16,
+      "symbol": "Operation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 17,
+      "symbol": "Operation.firstOperand",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 18,
+      "symbol": "Operation.secondOperand",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 19,
+      "symbol": "Operation.operationSign",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorModel.swift",
+      "line": 20,
+      "symbol": "Operation.concatentedOpertionAndSecondOperand",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 10,
+      "symbol": "CalculatorPresenterProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 11,
+      "symbol": "CalculatorPresenterProtocol.setOperationType(operationType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 12,
+      "symbol": "CalculatorPresenterProtocol.executeOperation(secondOperand:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 13,
+      "symbol": "CalculatorPresenterProtocol.undo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 14,
+      "symbol": "CalculatorPresenterProtocol.redo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 15,
+      "symbol": "CalculatorPresenterProtocol.addNewOperationAfterCovertCurrency(resultValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 18,
+      "symbol": "CalculatorPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 19,
+      "symbol": "CalculatorPresenter.setEgpTextValueDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 21,
+      "symbol": "CalculatorPresenter.currentIndex",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 22,
+      "symbol": "CalculatorPresenter.currentOperationType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 23,
+      "symbol": "CalculatorPresenter.result",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 24,
+      "symbol": "CalculatorPresenter.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 25,
+      "symbol": "CalculatorPresenter.calculatedOperations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 27,
+      "symbol": "CalculatorPresenter.init(operationHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 31,
+      "symbol": "CalculatorPresenter.setOperationType(operationType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 36,
+      "symbol": "CalculatorPresenter.executeOperation(secondOperand:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 67,
+      "symbol": "CalculatorPresenter.undo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 77,
+      "symbol": "CalculatorPresenter.redo()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorPresenter.swift",
+      "line": 87,
+      "symbol": "CalculatorPresenter.addNewOperationAfterCovertCurrency(resultValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorRouter.swift",
+      "line": 9,
+      "symbol": "CalculatorRouterProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorRouter.swift",
+      "line": 10,
+      "symbol": "CalculatorRouterProtocol.start(delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorRouter.swift",
+      "line": 13,
+      "symbol": "CalculatorRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorRouter.swift",
+      "line": 16,
+      "symbol": "CalculatorRouter.init(tabBarController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorRouter.swift",
+      "line": 20,
+      "symbol": "CalculatorRouter.start(delegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 10,
+      "symbol": "CalculatorViewProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 11,
+      "symbol": "CalculatorViewProtocol.operationExecuted(operations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 12,
+      "symbol": "CalculatorViewProtocol.enableSecondOperandTextFieldAndResetText(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 13,
+      "symbol": "CalculatorViewProtocol.enableOrDisableRedoButton(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 14,
+      "symbol": "CalculatorViewProtocol.enableOrDisableUndoButton(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 16,
+      "symbol": "CalculatorDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 17,
+      "symbol": "CalculatorDelegate.setEgpTextValue(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 20,
+      "symbol": "CalculatorViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 21,
+      "symbol": "CalculatorViewController.setEgpTextValueDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 22,
+      "symbol": "CalculatorViewController.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 23,
+      "symbol": "CalculatorViewController.calculatedOperations",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 37,
+      "symbol": "CalculatorViewController.undoIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 41,
+      "symbol": "CalculatorViewController.redoIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 50,
+      "symbol": "CalculatorViewController.plusIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 55,
+      "symbol": "CalculatorViewController.minusIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 61,
+      "symbol": "CalculatorViewController.DividIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 67,
+      "symbol": "CalculatorViewController.multiplyIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 73,
+      "symbol": "CalculatorViewController.equalIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 79,
+      "symbol": "CalculatorViewController.init(presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 84,
+      "symbol": "CalculatorViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 88,
+      "symbol": "CalculatorViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 93,
+      "symbol": "CalculatorViewController.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 102,
+      "symbol": "CalculatorViewController.registerCell()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 106,
+      "symbol": "CalculatorViewController.setCollectionViewDelegates()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 111,
+      "symbol": "CalculatorViewController.enableSecondOperandTextFieldAndResetText(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 116,
+      "symbol": "CalculatorViewController.enableOrDisableUndoButton(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 120,
+      "symbol": "CalculatorViewController.enableOrDisableRedoButton(isEnabled:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 124,
+      "symbol": "CalculatorViewController.changeResultValue(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 130,
+      "symbol": "CalculatorViewController.getOperationsResult()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 135,
+      "symbol": "CalculatorViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 136,
+      "symbol": "CalculatorViewController.operationExecuted(operations:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 144,
+      "symbol": "CalculatorViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 145,
+      "symbol": "CalculatorViewController.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 149,
+      "symbol": "CalculatorViewController.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 155,
+      "symbol": "CalculatorViewController.collectionView(_:layout:sizeForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/CalculatorViewController.swift",
+      "line": 161,
+      "symbol": "String.getSizeOfString(font:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
+      "line": 9,
+      "symbol": "OperationHandlerProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
+      "line": 10,
+      "symbol": "OperationHandlerProtocol.getOperation(calculatorResult:converterResult:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
+      "line": 12,
+      "symbol": "OperationHandler",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/OperationHandler.swift",
+      "line": 14,
+      "symbol": "OperationHandler.getOperation(calculatorResult:converterResult:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/collectionView cell/calculatorOperationCell.swift",
+      "line": 10,
+      "symbol": "calculatorOperationCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/collectionView cell/calculatorOperationCell.swift",
+      "line": 11,
+      "symbol": "calculatorOperationCell.secondOperandLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/collectionView cell/calculatorOperationCell.swift",
+      "line": 12,
+      "symbol": "calculatorOperationCell.outerView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/collectionView cell/calculatorOperationCell.swift",
+      "line": 14,
+      "symbol": "calculatorOperationCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/calculator scene/collectionView cell/calculatorOperationCell.swift",
+      "line": 21,
+      "symbol": "calculatorOperationCell.configure(operation:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterDatasource.swift",
+      "line": 10,
+      "symbol": "CurrencyConverterDatasourceProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterDatasource.swift",
+      "line": 11,
+      "symbol": "CurrencyConverterDatasourceProtocol.getCurrencyRate(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterDatasource.swift",
+      "line": 13,
+      "symbol": "MockCurrencyConverterDatasource",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterDatasource.swift",
+      "line": 14,
+      "symbol": "MockCurrencyConverterDatasource.getCurrencyRate(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 9,
+      "symbol": "CurrencyConverterInteractorProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 10,
+      "symbol": "CurrencyConverterInteractorProtocol.convertEGPValueToUSD(egpValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 13,
+      "symbol": "CurrencyConverterInteractor",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 14,
+      "symbol": "CurrencyConverterInteractor.datasource",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 15,
+      "symbol": "CurrencyConverterInteractor.presenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 16,
+      "symbol": "CurrencyConverterInteractor.init(datasource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterInteractor.swift",
+      "line": 20,
+      "symbol": "CurrencyConverterInteractor.convertEGPValueToUSD(egpValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 9,
+      "symbol": "CurrencyConverterPresenterProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 10,
+      "symbol": "CurrencyConverterPresenterProtocol.convertEGPValueToUSD(egpValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 12,
+      "symbol": "CurrencyConverterPresenterDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 13,
+      "symbol": "CurrencyConverterPresenterDelegate.handelSuccessRate(rate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 14,
+      "symbol": "CurrencyConverterPresenterDelegate.handelFailure(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 17,
+      "symbol": "CurrencyConverterPresenter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 18,
+      "symbol": "CurrencyConverterPresenter.currencyDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 22,
+      "symbol": "CurrencyConverterPresenter.viewController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 24,
+      "symbol": "CurrencyConverterPresenter.init(interactor:router:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 29,
+      "symbol": "CurrencyConverterPresenter.convertEGPValueToUSD(egpValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 35,
+      "symbol": "CurrencyConverterPresenter",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 37,
+      "symbol": "CurrencyConverterPresenter.handelSuccessRate(rate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterPresenter.swift",
+      "line": 42,
+      "symbol": "CurrencyConverterPresenter.handelFailure(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterRouter.swift",
+      "line": 9,
+      "symbol": "CurrencyConverterRouterProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterRouter.swift",
+      "line": 10,
+      "symbol": "CurrencyConverterRouterProtocol.start(currencyDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterRouter.swift",
+      "line": 12,
+      "symbol": "CurrencyConverterRouter",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterRouter.swift",
+      "line": 15,
+      "symbol": "CurrencyConverterRouter.init(tabBarController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterRouter.swift",
+      "line": 19,
+      "symbol": "CurrencyConverterRouter.start(currencyDelegate:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 10,
+      "symbol": "CurrencyConverterDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 11,
+      "symbol": "CurrencyConverterDelegate.convertButtonTapped(result:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 13,
+      "symbol": "CurrencyConverterViewProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 14,
+      "symbol": "CurrencyConverterViewProtocol.updateUSDTextValue(usdValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 15,
+      "symbol": "CurrencyConverterViewProtocol.handleGetRateFailure(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 18,
+      "symbol": "CurrencyConverterViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 22,
+      "symbol": "CurrencyConverterViewController.usdLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 23,
+      "symbol": "CurrencyConverterViewController.egpTextField",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 25,
+      "symbol": "CurrencyConverterViewController.convertIsPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 29,
+      "symbol": "CurrencyConverterViewController.init(intialResult:presenter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 35,
+      "symbol": "CurrencyConverterViewController.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 39,
+      "symbol": "CurrencyConverterViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 44,
+      "symbol": "CurrencyConverterViewController.setup()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 48,
+      "symbol": "CurrencyConverterViewController.setIntialResultValue(value:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 54,
+      "symbol": "CurrencyConverterViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 55,
+      "symbol": "CurrencyConverterViewController.updateUSDTextValue(usdValue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/smartpan/Desktop/Calculator/Calculator/currency converter scene/CurrencyConverterViewController.swift",
+      "line": 59,
+      "symbol": "CurrencyConverterViewController.handleGetRateFailure(error:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/smartpan/Desktop/Calculator"
+}
