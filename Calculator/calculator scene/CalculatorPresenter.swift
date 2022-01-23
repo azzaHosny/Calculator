@@ -15,16 +15,25 @@ protocol CalculatorPresenterProtocol {
     func addNewOperationAfterCovertCurrency(resultValue: Int)
 }
 
+protocol CalculatorPresenterDelegate: AnyObject {
+    
+}
+
 class CalculatorPresenter: CalculatorPresenterProtocol {
+    weak var setEgpTextValueDelegate: CalculatorDelegate?
     private var operationHandler: OperationHandlerProtocol
+    private var router: CalculatorRouter
+    private var interactor: CalculatorInteractorProtocol
     var currentIndex: Int = 0
     var currentOperationType: OperationsType?
     var result: Int = 0
     weak var viewController: CalculatorViewProtocol?
     var calculatedOperations: [Operation] = []
     
-    init(operationHandler: OperationHandlerProtocol) {
+    init(operationHandler: OperationHandlerProtocol, interactor: CalculatorInteractorProtocol, router: CalculatorRouter) {
         self.operationHandler = operationHandler
+        self.interactor = interactor
+        self.router = router
     }
     
     func setOperationType(operationType: OperationsType) {
@@ -91,5 +100,9 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
             handelOperationType(secondOperand: operation.secondOperand)
         }
     }
+    
+}
+
+extension CalculatorPresenter: CalculatorPresenterDelegate {
     
 }

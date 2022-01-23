@@ -18,10 +18,9 @@ protocol CalculatorDelegate: AnyObject {
 }
 
 class CalculatorViewController: UIViewController {
-    
+    weak var setEgpTextValueDelegate: CalculatorDelegate?
     var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
-    weak var setEgpTextValueDelegate: CalculatorDelegate?
     @IBOutlet private weak var plusButton: UIButton!
     @IBOutlet private weak var minusButton: UIButton!
     @IBOutlet private weak var multiplyButton: UIButton!
@@ -161,7 +160,7 @@ extension CalculatorViewController: UICollectionViewDelegate, UICollectionViewDa
 extension String {
     func getSizeOfString( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
         let fontAttribute = [NSAttributedString.Key.font: font]
-        let size = self.size(withAttributes: fontAttribute)  // for Single Line
+        let size = self.size(withAttributes: fontAttribute) 
        return size
     }
 }
