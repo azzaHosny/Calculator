@@ -31,10 +31,10 @@ class CustomeTabViewController: UITabBarController, CurrencyConverterDelegate, C
         calculatorVC.tabBarItem = UITabBarItem(title: "Calculator", image: nil, tag: 0)
         presenter.viewController = calculatorVC
         calculatorVC.setEgpTextValueDelegate = self
-        let currencyTabVC = CurrencyConverterViewController.init(intialResult: 0)
-        currencyTabVC.currencyDelegate = self
-        currencyTabVC.tabBarItem = UITabBarItem(title: "Curreny Converter", image: nil, tag: 1)
-        self.viewControllers = [calculatorVC, currencyTabVC]
+        self.viewControllers = [calculatorVC]
+
+        CurrencyConverterRouter.init(tabBarController: self).start(currencyDelegate: self)
+    
         self.delegate = self
     }
     

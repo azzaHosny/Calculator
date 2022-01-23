@@ -10,24 +10,24 @@ import UIKit
 protocol CurrencyConverterDelegate: AnyObject {
     func convertButtonTapped(result: Int)
 }
+protocol CurrencyConverterViewProtocol: AnyObject {
+    func updateUSDTextValue(usdValue: Double)
+    func handleGetRateFailure(error: Error)
+}
 
 class CurrencyConverterViewController: UIViewController {
     
     private var intialResult: Int
-    
-    weak var currencyDelegate: CurrencyConverterDelegate?
-    
+    private var presenter: CurrencyConverterPresenterProtocol
     @IBOutlet weak var usdLabel: UILabel!
-    
     @IBOutlet weak var egpTextField: UITextField!
     
     @IBAction func convertIsPressed(_ sender: Any) {
-        if currencyDelegate != nil {
-            currencyDelegate?.convertButtonTapped(result: Int(egpTextField.text ?? "0") ?? 0)
-        }
+        presenter.convertEGPValueToUSD(egpValue: Int(egpTextField.text ?? "0") ?? 0)
     }
     
-    init(intialResult: Int) {
+    init(intialResult: Int, presenter: CurrencyConverterPresenterProtocol) {
+        self.presenter = presenter
         self.intialResult = intialResult
         super.init(nibName: "CurrencyConverterViewController", bundle: nil)
     }
@@ -49,5 +49,16 @@ class CurrencyConverterViewController: UIViewController {
         intialResult = value
         egpTextField.text = "\(intialResult)"
     }
+}
+
+extension CurrencyConverterViewController: CurrencyConverterViewProtocol {
+    func updateUSDTextValue(usdValue: Double) {
+        usdLabel.text = "\(usdValue)"
+    }
+    
+    func handleGetRateFailure(error: Error) {
+        // handel error
+    }
+    
     
 }

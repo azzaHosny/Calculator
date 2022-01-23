@@ -21,6 +21,10 @@
 		5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */; };
 		5C6F85F0279CA7AE00620026 /* CurrencyConverterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */; };
 		5CA67CE2279DBC3A009C6E5D /* OperationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA67CE1279DBC3A009C6E5D /* OperationHandler.swift */; };
+		5CE8C85F279DD08800142FF2 /* CurrencyConverterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */; };
+		5CE8C862279DD1CE00142FF2 /* CurrencyConverterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */; };
+		5CE8C866279DD3BB00142FF2 /* CurrencyConverterDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */; };
+		5CE8C86A279DD98C00142FF2 /* CurrencyConverterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewController.swift; sourceTree = "<group>"; };
 		5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyConverterViewController.xib; sourceTree = "<group>"; };
 		5CA67CE1279DBC3A009C6E5D /* OperationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationHandler.swift; sourceTree = "<group>"; };
+		5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterPresenter.swift; sourceTree = "<group>"; };
+		5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterInteractor.swift; sourceTree = "<group>"; };
+		5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterDatasource.swift; sourceTree = "<group>"; };
+		5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,10 @@
 			children = (
 				5C6F85ED279CA7AE00620026 /* CurrencyConverterViewController.swift */,
 				5C6F85EE279CA7AE00620026 /* CurrencyConverterViewController.xib */,
+				5CE8C85E279DD08800142FF2 /* CurrencyConverterPresenter.swift */,
+				5CE8C861279DD1CE00142FF2 /* CurrencyConverterInteractor.swift */,
+				5CE8C865279DD3BB00142FF2 /* CurrencyConverterDatasource.swift */,
+				5CE8C869279DD98C00142FF2 /* CurrencyConverterRouter.swift */,
 			);
 			path = "currency converter scene";
 			sourceTree = "<group>";
@@ -205,7 +217,11 @@
 			files = (
 				5C573AE3279C09FD00435066 /* AppDelegate.swift in Sources */,
 				5C573B09279C561D00435066 /* calculatorOperationCell.swift in Sources */,
+				5CE8C866279DD3BB00142FF2 /* CurrencyConverterDatasource.swift in Sources */,
+				5CE8C85F279DD08800142FF2 /* CurrencyConverterPresenter.swift in Sources */,
+				5CE8C86A279DD98C00142FF2 /* CurrencyConverterRouter.swift in Sources */,
 				5C6F85EF279CA7AE00620026 /* CurrencyConverterViewController.swift in Sources */,
+				5CE8C862279DD1CE00142FF2 /* CurrencyConverterInteractor.swift in Sources */,
 				5C6F85E8279CA55C00620026 /* CustomeTabViewController.swift in Sources */,
 				5C573B05279C543600435066 /* CalculatorModel.swift in Sources */,
 				5C573AFE279C258A00435066 /* CalculatorViewController.swift in Sources */,
