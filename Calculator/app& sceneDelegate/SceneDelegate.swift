@@ -11,19 +11,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         let tabViewController = CustomeTabViewController()
-    
-//        let navigationController = UINavigationController()
-         window.rootViewController = tabViewController
-        let presenter = CalculatorPresenter()
-        let calculatorVC = CalculatorViewController.init(presenter: presenter)
-        presenter.viewController = calculatorVC
-//        navigationController.pushViewController(calculatorVC, animated: true)
-        tabViewController.viewControllers = [calculatorVC]
+        tabViewController.start()
+        window.rootViewController = tabViewController
         self.window = window
         window.makeKeyAndVisible()
     }

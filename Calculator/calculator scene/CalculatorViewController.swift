@@ -13,12 +13,13 @@ protocol CalculatorViewProtocol: AnyObject {
     func enableOrDisableRedoButton(isEnabled: Bool)
     func enableOrDisableUndoButton(isEnabled: Bool)
 }
+protocol CalculatorDelegate: AnyObject {
+    func setEgpTextValue(result: Int)
+}
 
 class CalculatorViewController: UIViewController {
-    
     var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
-    
     @IBOutlet private weak var plusButton: UIButton!
     @IBOutlet private weak var minusButton: UIButton!
     @IBOutlet private weak var multiplyButton: UIButton!
@@ -69,7 +70,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func equalIsPressed(_ sender: UIButton) {
-        if let secondOperandText = secondOperandTextField.text, let secondOperand = Double(secondOperandText) {
+        if let secondOperandText = secondOperandTextField.text, let secondOperand = Int(secondOperandText) {
             presenter.executeOperation(secondOperand: secondOperand)
         }
     }
@@ -87,7 +88,7 @@ class CalculatorViewController: UIViewController {
         super.viewDidLoad()
         setup()
     }
-    
+   
     func setup() {
         registerCell()
         setCollectionViewDelegates()
@@ -110,11 +111,23 @@ class CalculatorViewController: UIViewController {
         secondOperandTextField.text = ""
         secondOperandTextField.isUserInteractionEnabled = isEnabled
     }
+    
     func enableOrDisableUndoButton(isEnabled: Bool){
         undoButton.isEnabled = isEnabled
     }
+    
     func enableOrDisableRedoButton(isEnabled: Bool){
         redoButton.isEnabled = isEnabled
+    }
+     
+    func changeResultValue(result: Int) {
+        if isViewLoaded {
+            presenter.addNewOperationAfterCovertCurrency(resultValue: result)
+        }
+    }
+    
+    func reloadOperationsResult() {
+        presenter.reloadOperationsResult()
     }
 }
 
@@ -139,14 +152,14 @@ extension CalculatorViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width:  calculatedOperations[indexPath.row].concatentedOpertionAndSecondOperand.SizeOf_String().width + 10 , height: 50)
+        return CGSize(width:  calculatedOperations[indexPath.row].concatentedOpertionAndSecondOperand.getSizeOfString().width + 10 , height: 50)
     }
 }
 
 extension String {
-    func SizeOf_String( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
+    func getSizeOfString( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
         let fontAttribute = [NSAttributedString.Key.font: font]
-        let size = self.size(withAttributes: fontAttribute)  // for Single Line
+        let size = self.size(withAttributes: fontAttribute) 
        return size
     }
 }
