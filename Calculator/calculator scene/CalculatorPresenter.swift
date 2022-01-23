@@ -49,17 +49,8 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
     private func handelOperationType(secondOperand: Int) {
         guard let operationType = currentOperationType else { // error operation must be selected first
             return }
-        switch operationType {
-        case .divid:
-            result = result / secondOperand
-        case .minus:
-            result = result - secondOperand
-        case .plus:
-            result = result + secondOperand
-        case .multiply:
-            result = result * secondOperand
-        }
-        let executedOperation = Operation(firstOperand: result, secondOperand: secondOperand, operationSign: operationType)
+        let executedOperation = operationHandler.getOperation(operationType: operationType, firstOperand: result, secondOperand: secondOperand)
+        result = executedOperation.firstOperand
         calculatedOperations.append(executedOperation)
         currentIndex = calculatedOperations.count - 1
         viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))

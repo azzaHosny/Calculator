@@ -12,4 +12,5 @@ protocol CalculatorInteractorProtocol {
 class CalculatorInteractor: CalculatorInteractorProtocol {
     weak var presenter: CalculatorPresenterDelegate?
     
+
 }

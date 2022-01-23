@@ -8,6 +8,7 @@
 import Foundation
 protocol OperationHandlerProtocol {
     func getOperation(calculatorResult: Int, converterResult: Int) -> Operation
+    func getOperation(operationType: OperationsType, firstOperand: Int, secondOperand: Int) -> Operation
 }
 class OperationHandler: OperationHandlerProtocol {
     
@@ -26,5 +27,22 @@ class OperationHandler: OperationHandlerProtocol {
             }
         }
     }
-
+    
+    func getOperation(operationType: OperationsType, firstOperand: Int, secondOperand: Int) -> Operation {
+        let result = getOperationResult(operationType: operationType, firstOperand: firstOperand, secondOperand: secondOperand)
+        return Operation(firstOperand: result, secondOperand: secondOperand, operationSign: operationType)
+    }
+    
+    func getOperationResult(operationType: OperationsType, firstOperand: Int, secondOperand: Int) -> Int {
+        switch operationType {
+        case .divid:
+            return firstOperand / secondOperand
+        case .minus:
+            return firstOperand - secondOperand
+        case .plus:
+            return firstOperand + secondOperand
+        case .multiply:
+            return firstOperand * secondOperand
+        }
+    }
 }
