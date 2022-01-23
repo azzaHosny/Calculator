@@ -34,7 +34,7 @@ class CustomeTabViewController: UITabBarController, CurrencyConverterDelegate, C
     
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         if (viewController is CurrencyConverterViewController) {
-            calculatorVC?.getOperationsResult()
+            calculatorVC?.reloadOperationsResult()
         }
     }
 

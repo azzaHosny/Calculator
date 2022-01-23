@@ -24,7 +24,7 @@ class CalculatorRouter: CalculatorRouterProtocol {
         presenter.viewController = calculatorVC
         calculatorVC.tabBarItem = UITabBarItem(title: "Calculator", image: nil, tag: 0)
         interactor.presenter = presenter
-        calculatorVC.setEgpTextValueDelegate = delegate
+        presenter.setEgpTextValueDelegate = delegate
         tabBarController.viewControllers = [calculatorVC]
     }
 }

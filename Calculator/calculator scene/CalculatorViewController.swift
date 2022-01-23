@@ -18,7 +18,6 @@ protocol CalculatorDelegate: AnyObject {
 }
 
 class CalculatorViewController: UIViewController {
-    weak var setEgpTextValueDelegate: CalculatorDelegate?
     var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
     @IBOutlet private weak var plusButton: UIButton!
@@ -127,8 +126,8 @@ class CalculatorViewController: UIViewController {
         }
     }
     
-    func getOperationsResult() {
-        setEgpTextValueDelegate?.setEgpTextValue(result: calculatedOperations.last?.firstOperand ?? 0)
+    func reloadOperationsResult() {
+        presenter.reloadOperationsResult()
     }
 }
 

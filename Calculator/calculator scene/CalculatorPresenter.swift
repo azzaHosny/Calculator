@@ -13,6 +13,7 @@ protocol CalculatorPresenterProtocol {
     func undo()
     func redo()
     func addNewOperationAfterCovertCurrency(resultValue: Int)
+    func reloadOperationsResult()
 }
 
 protocol CalculatorPresenterDelegate: AnyObject {
@@ -101,6 +102,9 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         }
     }
     
+    func reloadOperationsResult() {
+        setEgpTextValueDelegate?.setEgpTextValue(result: calculatedOperations.last?.firstOperand ?? 0)
+    }
 }
 
 extension CalculatorPresenter: CalculatorPresenterDelegate {
