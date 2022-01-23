@@ -13,12 +13,15 @@ protocol CalculatorViewProtocol: AnyObject {
     func enableOrDisableRedoButton(isEnabled: Bool)
     func enableOrDisableUndoButton(isEnabled: Bool)
 }
+protocol CalculatorDelegate: AnyObject {
+    func setEgpTextValue(result: Int)
+}
 
 class CalculatorViewController: UIViewController {
     
     var presenter: CalculatorPresenterProtocol
     var calculatedOperations: [Operation] = []
-    
+    weak var setEgpTextValueDelegate: CalculatorDelegate?
     @IBOutlet private weak var plusButton: UIButton!
     @IBOutlet private weak var minusButton: UIButton!
     @IBOutlet private weak var multiplyButton: UIButton!
@@ -87,7 +90,7 @@ class CalculatorViewController: UIViewController {
         super.viewDidLoad()
         setup()
     }
-    
+   
     func setup() {
         registerCell()
         setCollectionViewDelegates()
@@ -123,6 +126,10 @@ class CalculatorViewController: UIViewController {
         if isViewLoaded {
             presenter.addNewOperationAfterCovertCurrency(resultValue: result)
         }
+    }
+    
+    func getOperationsResult() {
+        setEgpTextValueDelegate?.setEgpTextValue(result: calculatedOperations.last?.firstOperand ?? 0)
     }
 }
 

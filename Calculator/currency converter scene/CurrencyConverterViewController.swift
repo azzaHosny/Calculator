@@ -39,12 +39,15 @@ class CurrencyConverterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
-        // Do any additional setup after loading the view.
-       
     }
-    
+ 
     func setup() {
         egpTextField.text = "\(intialResult)"
     }
-   
+    
+    func setIntialResultValue(value: Int) {
+        intialResult = value
+        egpTextField.text = "\(intialResult)"
+    }
+    
 }
