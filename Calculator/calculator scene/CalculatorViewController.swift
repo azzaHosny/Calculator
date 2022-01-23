@@ -147,12 +147,12 @@ extension CalculatorViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width:  calculatedOperations[indexPath.row].concatentedOpertionAndSecondOperand.SizeOf_String().width + 10 , height: 50)
+        return CGSize(width:  calculatedOperations[indexPath.row].concatentedOpertionAndSecondOperand.getSizeOfString().width + 10 , height: 50)
     }
 }
 
 extension String {
-    func SizeOf_String( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
+    func getSizeOfString( font: UIFont = .systemFont(ofSize: 17)) -> CGSize {
         let fontAttribute = [NSAttributedString.Key.font: font]
         let size = self.size(withAttributes: fontAttribute)  // for Single Line
        return size

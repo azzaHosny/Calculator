@@ -2,7 +2,7 @@
 //  CurrencyConverterViewController.swift
 //  Calculator
 //
-//  Created by SmartPan on 1/22/22.
+//  Created by azah on 1/22/22.
 //
 
 import UIKit
@@ -38,7 +38,7 @@ class CurrencyConverterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setup()
         // Do any additional setup after loading the view.
        
     }

@@ -21,8 +21,6 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
     var currentOperationType: OperationsType?
     var result: Int = 0
     weak var viewController: CalculatorViewProtocol?
-    var undoOperations: [Operation] = []
-    var redoOperations: [Operation] = []
     var calculatedOperations: [Operation] = []
     
     init(operationHandler: OperationHandlerProtocol) {
@@ -35,6 +33,10 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
     }
     
     func executeOperation(secondOperand: Int) {
+        handelOperationType(secondOperand: secondOperand)
+    }
+    
+    private func handelOperationType(secondOperand: Int) {
         guard let operationType = currentOperationType else { // error operation must be selected first
             return }
         switch operationType {
@@ -54,10 +56,9 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
         currentOperationType = nil
         viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
         refreshUndoAndRedoButtons()
-        
     }
     
-    func refreshUndoAndRedoButtons() {
+    private func refreshUndoAndRedoButtons() {
         viewController?.enableOrDisableRedoButton(isEnabled: currentIndex < calculatedOperations.count - 1 )
         viewController?.enableOrDisableUndoButton(isEnabled: currentIndex > 0)
     }
@@ -85,36 +86,10 @@ class CalculatorPresenter: CalculatorPresenterProtocol {
     func addNewOperationAfterCovertCurrency(resultValue: Int) {
         if resultValue != result {
             let operation = operationHandler.getOperation(calculatorResult: result, converterResult: resultValue)
+            currentOperationType = operation.operationSign
             result = operation.firstOperand
-            calculatedOperations.append(operation)
-            currentIndex = calculatedOperations.count - 1
-            viewController?.operationExecuted(operations: Array(calculatedOperations[0...currentIndex]))
-            currentOperationType = nil
-            viewController?.enableSecondOperandTextFieldAndResetText(isEnabled: false)
-            refreshUndoAndRedoButtons()
-            
+            handelOperationType(secondOperand: operation.secondOperand)
         }
     }
-}
-protocol OperationHandlerProtocol {
-    func getOperation(calculatorResult: Int, converterResult: Int) -> Operation
-}
-class OperationHandler: OperationHandlerProtocol {
     
-    func getOperation(calculatorResult: Int, converterResult: Int) -> Operation {
-        if calculatorResult > converterResult {
-            if calculatorResult % converterResult == 0 {
-                return Operation(firstOperand: calculatorResult, secondOperand: (calculatorResult / converterResult), operationSign: .divid)
-            } else {
-                return Operation(firstOperand: calculatorResult, secondOperand: (calculatorResult - converterResult), operationSign: .minus)
-            }
-        } else {
-            if converterResult % calculatorResult == 0 {
-                return Operation(firstOperand: calculatorResult, secondOperand: (converterResult / calculatorResult), operationSign: .multiply)
-            } else {
-                return Operation(firstOperand: calculatorResult, secondOperand: (converterResult - calculatorResult ), operationSign: .plus)
-            }
-        }
-    }
-
 }

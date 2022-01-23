@@ -11,21 +11,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
-
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         let tabViewController = CustomeTabViewController()
-    
-         window.rootViewController = tabViewController
-        let presenter = CalculatorPresenter(operationHandler: OperationHandler())
-        let calculatorVC = CalculatorViewController.init(presenter: presenter)
-        calculatorVC.tabBarItem = UITabBarItem(title: "Calculator", image: nil, tag: 0)
-        presenter.viewController = calculatorVC
-       let currencyTabVC = CurrencyConverterViewController.init(intialResult: 0)
-        currencyTabVC.currencyDelegate = tabViewController
-        currencyTabVC.tabBarItem = UITabBarItem(title: "Curreny Converter", image: nil, tag: 1)
-        tabViewController.viewControllers = [calculatorVC, currencyTabVC]
+        tabViewController.start()
+        window.rootViewController = tabViewController
         self.window = window
         window.makeKeyAndVisible()
     }
